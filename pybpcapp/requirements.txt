@@ -21,3 +21,4 @@ pyelliptic==1.5.7
 tinyrpc[gevent,httpclient,jsonext,websocket,wsgi]
 pycryptodome==3.4.6
 future
+prompt-toolkit>=3.0.13 # not directly required, pinned by Snyk to avoid a vulnerability
